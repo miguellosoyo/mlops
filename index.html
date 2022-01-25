@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Head contiene los metadatos de la página web-->
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-AU-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Define el nombre que aparecerá en la tabulación-->
+        <title>AI Projects</title>
+
+        <!--Asigna los estilos contenidos en el archivo estilos.css-->
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--Define la tipografía de la página web-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    
+    <!--Body contiene todo lo que se va a visualizar en la página web-->
+    <body>
+        <header class="header" id="inicio">
+            <img src="icons/bx-menu.svg" alt="" class="menu">
+            <nav class="menu-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#herramientas">Herramientas</a>
+                <a href="#expertos">Expertos</a>
+                <a href="#contacto">Contacto</a>
+            </nav> 
+            <div class="contenedor head">
+                <h1>Innovaciones por Campos Más Verdes</h1>
+                <p class="copy" align="justify">Procuramos proveer de herramientas disrruptivas al campo mexicano para que la suficiencia alimentaria deje de ser inalcanzable para muchos mexicanos, y poco rentable para quienes labran el campo.</p>
+            </div>
+        </header>
+        <main>
+            <section class="services contenedor" id="servicios">
+                <h2 class="subtitulo">Nuestros Servicios</h2>
+                <div class="contenedor-servicio">
+                    <img src="images/services.jpg" alt="">
+                    <div class="cheklist-servicio">
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">1 </span>Consultoría de Proyectos</h3>
+                            <p align="justify">Formulación de proyectos productivos que permiten aumentar el valor agregado de los productores del sector agrícola, automatización de procesos y eficiencia comercial de corto, mediano y largo plazo.</p>
+                        </div>
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">2 </span>Transformación Digital</h3>
+                            <p align="justify">Implementación de procesos de disrrupción tecnológica para el mejoramiento de la calidad de los productos y procesos productivos, implementando soluciones basadas en Aprendizaje Automático e Inteligencia Artificial.</p>
+                        </div>
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">3 </span>Consultoría Fiscal</h3>
+                            <p align="justify">Aplicación de estrategias de deducción fiscal, focalizadas al ahorro directo del Impuesto Sobre la Renta durante un periodo de 6 años consecutivos, siendo personalmente acompañado fiscal y legalmente el contribuyente para una mayor certeza.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery contenedor" id="herramientas">
+                <div class="contenedor">
+                    <h2 class="subtitulo">Herramientas</h2>
+                    <div class="contenedor-galeria">
+                        <img src="images/pepper_mlops.jpg" alt="" class="img-galeria">
+                        <img src="images/coffe_mlops.jpg" alt="" class="img-galeria">
+                        <img src="images/potato_mlops.jpg" alt="" class="img-galeria">
+                        <img src="images/tomato_mlops.jpg" alt="" class="img-galeria">
+                        <img src="images/cannabis_mlops.jpg" alt="" class="img-galeria">
+                    </div>
+                </div>
+            </section>
+
+            <section class="contenedor expertos" id="expertos">
+                <h2 class="subtitulo">Expertos en:</h2>
+                <section class="experts">
+                    <div class="cont-expert">
+                        <img src="images/agronomy.jpg" alt="">
+                        <h3 class="n-expert">Agronomía</h3>
+                    </div>                    
+                    <div class="cont-expert">
+                        <img src="images/data_science.jpg" alt="">
+                        <h3 class="n-expert">Ciencia de Datos</h3>
+                    </div>                    
+                    <div class="cont-expert">
+                        <img src="images/artificial_intelligence.jpg" alt="">
+                        <h3 class="n-expert">Inteligencia Artificial</h3>
+                    </div>                    
+                </section>
+            </section>
+        </main>
+        <footer id="contacto">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">COFAENI</h2>
+                    <p>Equipo de Profesionales Disruptivos</p>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook-square'></i>                    
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter'></i>                   
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/lightbox.js"></script>
+    </body>
+</html>
